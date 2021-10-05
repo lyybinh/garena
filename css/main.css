@@ -1,0 +1,193 @@
+@charset "utf-8";
+/* CSS Document */
+body
+{
+	margin: 0;
+	padding: 0;
+}
+#container
+{
+	width: 100%;
+	height: 2400px;
+	background-color:#F0F0F0;
+}
+.header
+{
+	width: 100%;
+	height: 70px;
+	background-color: white
+}
+.logo
+{
+	width: 20%;
+	height: 70px;
+	background:url("../images/2.jpg");
+	background-size: cover;
+	margin: 0px 40px 30px 60px;
+	float: left;
+}
+.menu
+{
+	width: 70%;
+	height: 70px;
+	background-color: white;
+	margin: 0px 0px 50px 5px;
+	float: left;
+}
+
+.banner
+{
+	width: 100%px;
+	height: 606px;
+	background:url("../images/banner1 copy.jpg");
+	background-size: cover
+}
+.slider
+{
+	width: 100%;
+	height: 600px;
+    color: white;
+	box-sizing: border-box;
+	padding: 400px 300px 100px 300px;
+	font-family: fontday;
+}
+@font-face
+{
+	font-family: fontday;
+	src: url("../font/Arvo-Bold.ttf")
+}
+@font-face
+{
+	font-family: khongchan;
+	src: url("../font/Baloo2-Regular.ttf")
+}
+.mid
+{
+	width: 100%;
+	height: 100px;
+	box-sizing: border-box;
+	padding: 10px 300px 10px 680px;
+	font-family: fontday;
+}
+.menu ul
+{
+	list-style: none;
+}
+
+.menu ul li
+{
+	float: left;
+	padding: 10px 30px 15px 30px;
+}
+
+.menu ul li a
+{
+	text-decoration: none;
+}
+
+.menu ul li :hover
+{
+	color: red;
+}
+
+.midimg
+{
+	width: 100%;
+	height: 400px;
+}
+.footin
+{
+	width: 100%;
+	height: 350px;
+}
+.hcnaboutus
+{
+	width: 300px;
+	height: 350px;
+	background-color: white;
+	float: left;
+	border:1px solid #FFFFFF;
+	margin: 20px 40px 40px 110px;
+	padding: 10px 20px 20px 20px;
+    font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif"
+}
+.hcnfootin1
+{
+	width: 600px;
+	height: 250px;
+	float: left;
+	margin: 20px 8px 40px 100px;
+	padding: 10px 20px 20px 20px;
+	color: dimgray;
+    font-family: khongchan;
+}
+.hcnfootin2
+{
+	width: 600px;
+	height: 250px;
+	float: left;
+	margin: 20px 1px 40px 50px;
+	padding: 10px 20px 20px 20px;
+    font-family: khongchan;
+}
+
+.hcnfootin2 ul
+{
+	list-style: none;
+}
+
+.hcnfootin2 ul li
+{
+	float: left;
+	padding: 40px 40px;
+}
+
+.hcnfootin2 ul li a
+{
+	text-decoration: none;
+	color: dimgray;
+}
+
+.footlast
+{
+	width: 100%;
+	height: 60px;
+}
+.hcnfootlast1
+{
+	width: 270px;
+	height: 15px;
+	float: left;
+	margin: 0px 1px 40px 80px;
+	padding: 10px 20px 20px 30px;
+	color: dimgray;
+    font-family: khongchan;
+}.hcnfootlast2
+{
+	width: 600px;
+	height: 15px;
+	float: left;
+	margin: 0px 1px 40px 400px;
+	padding: 10px 20px 20px 30px;
+    font-family: khongchan;
+}
+.hcnfootlast2 ul
+{
+	list-style: none;
+}
+
+.hcnfootlast2 ul li
+{
+	float: left;
+	margin: 1px 1px 1px 1px;
+	padding: 0px 20px 20px 50px;
+}
+.hcnfootlast2 ul li a
+{
+	text-decoration: none;
+	color: dimgray;
+}
+.hcnfootlast2 ul li :hover
+{
+	color: red;
+}
